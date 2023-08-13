@@ -1,0 +1,165 @@
+#results{
+   font-family: sans-serif;
+    background-color: rgb(71, 71, 71);
+    padding: 0rem 1rem 0rem 1rem;
+    cursor: pointer;
+}
+#results ul li{
+    list-style: none;
+    color: antiquewhite;
+}
+
+#results ul li:hover{
+    background-color: rgb(56, 56, 56);
+}
+
+.cards-of-search{
+    display: flex;
+ align-items: center;
+ gap: 0.4rem;
+
+}
+
+.img-round{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text-search-put{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+    margin-top: 1.2rem;
+}
+
+.text-search-put p{
+    padding: 0;
+    margin: 0;
+    line-height: 0.3;
+}
+.text-search-put p:nth-child(2){
+    color: rgb(155, 58, 10);
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.icons-search{
+    position: relative;
+    width: 50%;
+    align-self: flex-start;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    height: 3.2rem;
+
+   
+    padding-top: .4rem;
+    width: 80%;
+
+}
+.expandable-input{
+    position: absolute;
+    top: 0;
+    right:10px;
+}
+
+.search-box{
+    width: 600px;
+    background-color: #474747;
+   
+    border-radius: 5px;
+    z-index: 999999;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    
+    padding: 10px 20px ;
+}
+
+.check{
+    flex:1;
+    height:50px;
+    background: #363636;
+    border: 0;
+    outline: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 18px;
+    border-radius: 0.2rem;
+    color: #d8d8d8;
+}
+.nomatch{
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.bx-button {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    width: 2rem;
+
+}
+.bx-search{
+    /* width: 25px; */
+    cursor: pointer;
+    font-size: 2rem;
+    color: #d9d9d9;
+}
+
+::placeholder{
+    color: #555;
+}
+
+
+.result-box ul{
+    border-radius: 1px solid #999;
+    padding:0px 10px;
+
+    margin-top: 0;
+}
+
+.result-box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.result-box ul li:hover{
+   background: #d8d8d8;
+}
+
+.expandable-input {
+    width: 313px; /* Initial width */
+    transition: width 0.3s ease; /* Smooth transition */
+}
+
+.expandable-input.expanded {
+    width: 750px; /* Expanded width */
+}
+.more-option-search{
+    padding: 0.5rem 2rem;
+    background-color: #999;
+    margin-bottom: 0.5rem ;
+    margin-left: 2.5rem;
+    border-radius: 0.5rem;
+    color: #474747;
+
+}
+.btn-search-con-s{
+    display: flex;
+    gap:1rem;
+
+    }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime Search</title>
+    <link rel="stylesheet" href="search1.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="icons-search">
+      <div class="search-box expandable-input">
+        <div class="row">
+          <input
+            type="text"
+            id="searchInput"
+            class="check"
+            placeholder="Search anime"
+          />
+          <button class="bx-button"><i class="bx bx-search"></i></button>
+        </div>
+        <div id="results" class="result-box"></div>
+        <div class="btn-search-con-s">
+          <button
+            id="showMore"
+            class="more-option-search"
+            style="display: none"
+          >
+            see more
+          </button>
+          <button
+            id="seePrevious"
+            class="more-option-search"
+            style="display: none"
+          >
+            Show Previous
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="searchdata.js"></script>
+  </body>
+</html>
